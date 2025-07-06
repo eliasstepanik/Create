@@ -1,0 +1,2 @@
+#Does the player screen desaturate on their last down?
+lastDownDesaturate = true

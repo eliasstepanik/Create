@@ -1,0 +1,43 @@
+#Allowed Values: TEXT, SCREEN_NO_BACKGROUND, SCREEN_BACKGROUND
+item_tooltip_type = "SCREEN_NO_BACKGROUND"
+render_interact_indicator = true
+# Default: 8
+# Range: 1 ~ 20
+interact_indicator_distance = 8
+# Default: 0.2
+# Range: 0.001 ~ 0.999
+interact_indicator_percent = 0.2
+render_selected_indicator = true
+# Default: 12
+# Range: 1 ~ 20
+selected_indicator_distance = 12
+# Default: 0.2
+# Range: 0.001 ~ 0.999
+selected_indicator_percent = 0.2
+# Default: 127
+# Range: 0 ~ 255
+widget_background_alpha = 127
+# Default: 0
+# Range: > 10
+pin_padding_left = 10
+# Default: 0
+# Range: > 10
+pin_padding_up = 10
+# Default: 0.8
+# Range: 0.001 ~ 10.0
+pin_prompt_line_width = 0.8
+# Default: 10.0
+# Range: 1.0 ~ 100.0
+pin_prompt_radius = 10.0
+# Default: 20.0
+# Range: 0.1 ~ 100.0
+pin_prompt_terminal_straight_line_length = 20.0
+# Default: 3.0
+# Range: -1000.0 ~ 1000.0
+drag_prompt_x_offset = 3.0
+# Default: 3.0
+# Range: -1000.0 ~ 1000.0
+drag_prompt_y_offset = 3.0
+# Default: 0.8
+# Range: 0.01 ~ 1.0
+drag_prompt_alpha = 0.8

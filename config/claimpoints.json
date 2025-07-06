@@ -1,0 +1,26 @@
+{
+  "cpSettings": {
+    "nameFormat": "CP (%d)",
+    "namePattern": "^\\QCP (\\E(\\d+)\\Q)\\E$",
+    "alias": "C",
+    "color": "gui.xaero_white"
+  },
+  "gpSettings": {
+    "claimListCommand": "claimlist",
+    "firstLinePattern": "^-?\\d+ blocks from play \\+ -?\\d+ bonus \u003d -?\\d+ total\\.$",
+    "claimLinePattern": "^(.+): x(-?\\d+), z(-?\\d+) \\(-?(\\d+) blocks\\)$",
+    "ignoredLinePatterns": [
+      "^Claims:$"
+    ],
+    "endingLinePatterns": [
+      "^ \u003d -?\\d* blocks left to spend$"
+    ]
+  },
+  "acSettings": {
+    "commandDelay": 1,
+    "servers": [],
+    "commands": [
+      "/cp worlds"
+    ]
+  }
+}

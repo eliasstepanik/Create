@@ -1,0 +1,45 @@
+drop_none_applicable_widget = true
+enable_pop_up = true
+# Default: 5
+# Range: 1 ~ 200
+popup_interval = 5
+# Default: 16
+# Range: 4 ~ 48
+popup_distance = 16
+popup_all_nearby_entity = true
+popup_all_nearby_block = true
+transform_context_after_mob_conversation = true
+# Default: 8.0
+# Range: 0.1 ~ 16.0
+render_max_distance = 8.0
+# Default: 1.0
+# Range: 0.1 ~ 16.0
+render_min_distance = 1.0
+#measured in tick
+# Default: 80
+# Range: 1 ~ 1200
+display_after_not_seen = 80
+# Default: 1.0
+# Range: 0.1 ~ 2.5
+global_hologram_range = 1.0
+skip_hologram_if_empty = true
+display_interactive_hint = true
+render_debug_layer = false
+render_debug_hologram_life_cycle_box = false
+render_widget_debug_info = false
+render_network_debug_info = false
+render_debug_transient_target = false
+render_interact_transient_re_mapping_indicator = false
+#Allowed Values: DEFAULT, REI, JEI, AUTO
+search_backend = "AUTO"
+#Allowed Values: BY_PRESS, BY_CYCLE
+force_display_mode_switch_type = "BY_PRESS"
+#0 for no limit
+# Default: 50
+# Range: > 0
+tooltip_limit_height = 50
+# Default: 5.0
+# Range: 1.0 ~ 100.0
+pin_screen_distance_factor = 5.0
+hide_entity_types = []
+hide_blocks = []
